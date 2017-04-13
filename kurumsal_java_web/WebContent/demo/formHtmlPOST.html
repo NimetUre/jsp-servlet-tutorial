@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Html Form</title>
+</head>
+<body>
+
+<br>
+<h3>KULLANICI KAYDI</h3>
+<div style="border:1px solid #D0D0D0;width:400px;padding:10px;">
+ 
+    <form method = "POST" action="formProcessing.jsp">
+       Kullanici Adı: <input type="text" name="userName" value="">
+        <br>
+        Şifre :       <input type="password" name="password" value="">
+ 
+        <hr>
+        İsim: <input type="text" name="firstName">
+        <br>
+       Soyisim: <input type="text" name="lastName">
+        <br>
+        Cinsiyet: <input type="radio" name="gender" value ="K"> Erkek
+                  <input type="radio" name="gender" value="E"> Kadın
+        <hr>
+        Adres:
+        <br>
+        <input type="text" name="address" size="50">
+        <input type="text" name="address" size="50">
+        <input type="text" name="address" size="50">        
+              
+        <hr>        
+        <input type="submit" value="Onayla">
+    </form>
+ 
+</div>
+ 
+</body>
+</html>
